@@ -395,6 +395,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 3px;
   transition: 0.3s ease-in-out;
+  outline: none;
 }
 .header nav ul li a:hover {
   color: #73c7a7;
@@ -775,6 +776,9 @@ body {
   .header nav ul li a {
     color: #73c7a7;
     font-size: 20px;
+  }
+  .header nav ul li a:hover {
+    font-size: 24px;
   }
 
   .about {
